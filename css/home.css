@@ -1,0 +1,92 @@
+.two {
+    font-size: 36px;
+    font-weight: bold;
+    animation: gradientText 5s ease-in-out infinite;
+}
+
+@keyframes gradientText {
+    0% {
+        color: var(--font-color);
+    }
+
+    25% {
+        color:var(--secondary-color);
+    }
+
+    50% {
+        color:var(--font-color);
+    }
+
+    100% {
+        color:var(--secondary-color);
+    }
+}
+
+.one{
+    font-size: 45px;
+    line-height: 0%;
+}
+.two{
+    font-size: 110px;
+    line-height: 1%;
+}
+.three{
+    color:var(--font-color);
+    font-size: 52px;
+    line-height: 0%;
+   
+
+.three:hover{
+    color:var(--secondary-color)
+}
+}
+
+
+.pic{
+  padding-left:75%;
+  height:100px;
+  width:50px;
+
+}
+
+.text{
+  padding-top:1px;
+  padding-left:10px;
+}
+
+
+.fa {
+  padding: 15px;
+  font-size: 50%;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+.fa-facebook {
+  background:var(--secondary-color);
+  color: white;
+}
+.fa-twitter {
+  background:var(--secondary-color);
+  color: white;
+}
+
+.fa-instagram{
+  background:var(--secondary-color);
+  color: white;
+}
+
+.fa-youtube {
+  background:var(--secondary-color);
+  color: white;
+}
+
+.fa:hover {
+  opacity: 1;
+  background:white;
+  color: var(--secondary-color);
+}
+

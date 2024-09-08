@@ -1,0 +1,51 @@
+.aboutme-header h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Questrial', sans-serif; 
+  line-height:0%;
+  
+}
+
+.aboutme-header h4{
+  color:var(--secondary-color);
+  text-align: center;
+  line-height:0%;   
+}
+
+.aboutme{
+    color:white;
+    text-align:center;
+    font-size: 24px;;
+    text-align: justify;
+    line-height:35px;
+    padding-right: 100px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.container {
+  display: flex; 
+}
+
+.left {
+  background-color:var(--primary-color); 
+  display: flex; 
+}
+
+.right {
+  background-color: var(--primary-color);
+  flex-direction: column;
+
+  
+  
+}
+
+
+
+img {
+  width: 612px; 
+  height: 408px; 
+  padding-top: 20px;
+
+}

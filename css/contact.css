@@ -1,0 +1,55 @@
+.contact-header h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Questrial', sans-serif; 
+    line-height:0%;
+    
+  }
+  
+  .contact-header h4{
+    color:var(--secondary-color);
+    text-align: center;
+    line-height:0%;   
+  }
+
+input[type=submit]{background-color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 8px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
